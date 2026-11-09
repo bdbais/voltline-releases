@@ -58,8 +58,9 @@ impostazioni) e la scarica solo se glielo chiedi.
 
 ### Grazie
 
-Beta test di **Claire**, che ha trovato il blocco su Chrome e il tasto Menu che
-non faceva niente.
+Beta test di **Claire**, che ha giocato e ha rifatto la curva di difficolta':
+le tre andature di questa versione vengono dalle sue partite, non da una
+taratura a tavolino.
 
 ## 1.0.0 — mai pubblicata
 
