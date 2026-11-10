@@ -7,6 +7,35 @@ Le versioni seguono `MAJOR.MINOR.PATCH`. Il `versionCode` di Android e' il
 numero dopo il `+` in `app/pubspec.yaml` e cresce di uno a ogni rilascio: e' il
 numero su cui l'app decide se c'e' un aggiornamento.
 
+## 1.2.0 — 10 novembre 2026
+
+### Hall of fame
+
+I punteggi migliori stanno online, su voltline.bais.info. Dal menu si apre la
+classifica, a fine partita si manda il proprio risultato: si sceglie un nome
+una volta sola e resta.
+
+Una classifica per andatura, perche' un punteggio fatto in facile e uno fatto
+in difficile non si confrontano. Si legge anche dal browser, su
+[voltline.bais.info/classifica](https://voltline.bais.info/classifica), in
+tutte e tredici le lingue.
+
+Non e' a prova di imbroglio, e non puo' esserlo: il punteggio lo manda il
+gioco, e un gioco si puo' modificare. Quello che si puo' fare e' alzare il
+costo -- campi validati, un tetto di punti al secondo che scarta i valori
+impossibili, un limite di invii per indirizzo. Dell'indirizzo IP non resta
+niente: serve solo al limite, e viene tenuto come primi sedici caratteri di
+uno sha256 con un sale. Il gioco promette di non tracciare nessuno, e questo
+non e' un'eccezione.
+
+### Corretto
+
+- **"2st place".** L'ordinale inglese dipende dalle ultime due cifre, non
+  dall'ultima: 1st, 2nd, 3rd, ma 11th, 12th, 13th. In francese cambia solo il
+  primo. Ora e' giusto, e un test lo tiene giusto.
+- **Il pannello dei comandi da tastiera non partiva a premere un tasto.**
+  Si chiudeva solo col clic. Visto dal vivo nel browser.
+
 ## 1.1.0 — 9 novembre 2026
 
 ### Si correva troppo

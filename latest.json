@@ -1,12 +1,12 @@
 {
-  "versionName": "1.1.0",
-  "versionCode": 2,
-  "releaseDate": "2026-11-09",
+  "versionName": "1.2.0",
+  "versionCode": 3,
+  "releaseDate": "2026-11-10",
   "mandatory": false,
-  "notes": "Tre andature: facile, medio, difficile. Si correva troppo.",
+  "notes": "Hall of fame online: i punteggi migliori, una classifica per andatura.",
   "android": {
-    "url": "https://github.com/bdbais/voltline-releases/releases/download/v1.1.0/voltline-arm64.apk",
-    "sha256": "471483c99adbfde60947f87379853a49a7e06339c58a3d5d038c87181e3614ce",
-    "sizeBytes": 22038937
+    "url": "https://github.com/bdbais/voltline-releases/releases/download/v1.2.0/voltline-arm64.apk",
+    "sha256": "ae80b72531510d9fd9ca3c9fab885f72736aa0496219b67ee96bb2c53e9974c5",
+    "sizeBytes": 23022409
   }
 }
